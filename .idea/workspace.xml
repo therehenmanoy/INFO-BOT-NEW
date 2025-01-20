@@ -33,6 +33,7 @@
       <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/output.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/output.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/pages/404/404.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/pages/404/404.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/pages/loginpage/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/pages/loginpage/login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/InfoBot/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/tailwind.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/InfoBot/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/vite.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
@@ -57,6 +58,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -84,6 +86,7 @@
       <updated>1737302322183</updated>
       <workItem from="1737302324058" duration="74000" />
       <workItem from="1737396282144" duration="1467000" />
+      <workItem from="1737398969423" duration="941000" />
     </task>
     <servers />
   </component>
