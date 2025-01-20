@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9fb9175-6f0a-4071-9907-fd75bfe4327d" name="Changes" comment="" />
+    <list default="true" id="c9fb9175-6f0a-4071-9907-fd75bfe4327d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/INFO-BOT-NEW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/INFO-BOT-NEW.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/test_main.http" beforeDir="false" afterPath="$PROJECT_DIR$/backend/test_main.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/InfoBot/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/InfoBot/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/InfoBot/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/eslint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/InfoBot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/InfoBot/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/InfoBot/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/output.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/output.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/pages/404/404.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/pages/404/404.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/InfoBot/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/InfoBot/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +45,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2rr1KwM3HjzD7ZLGDslvRVHhFyW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,6 +58,10 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -44,6 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1737302322183</updated>
       <workItem from="1737302324058" duration="74000" />
+      <workItem from="1737396282144" duration="1467000" />
     </task>
     <servers />
   </component>
