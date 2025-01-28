@@ -8,7 +8,7 @@ import Login from "./pages/loginpage/login.jsx";
 function App() {
 
     return(
-        <ErrorPage/>
+        <Login/>
     )
 }
 
