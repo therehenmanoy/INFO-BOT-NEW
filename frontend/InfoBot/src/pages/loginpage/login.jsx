@@ -21,10 +21,13 @@ const Login = () => {
             <div className="w-[100px] h-[100px] rounded-[50%] bg-white">
                 <img src={image} alt="logo"/>
             </div>
-            <TextField label="Username" variant="outlined"/>
-            <TextField label="Password" variant="outlined"/>
+            <TextField label="Username" variant="outlined" InputLabelProps={{ style: { color: 'white' } }}
+  InputProps={{ style: { color: 'white' } }}/>
+            <TextField label="Password" variant="outlined" InputLabelProps={{ style: { color: 'white' } }}
+  InputProps={{ style: { color: 'white' } }}/>
             <Button variant="contained" className="w-[15vw]">Login</Button>
-            <hr className="white"/>OR<hr className="white"/>
+            <hr className="white" InputLabelProps={{ style: { color: 'white' } }}
+  InputProps={{ style: { color: 'white' } }}/>OR<hr className="white"/>
         </div>
         </div>
     );
