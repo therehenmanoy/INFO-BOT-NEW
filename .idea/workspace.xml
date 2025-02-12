@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9fb9175-6f0a-4071-9907-fd75bfe4327d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/InfoBot/src/pages/home/home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/INFO-BOT-NEW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/INFO-BOT-NEW.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
@@ -35,6 +34,7 @@
       <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/output.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/output.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/pages/404/404.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/pages/404/404.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/pages/home/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/pages/home/home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/pages/loginpage/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/pages/loginpage/login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/InfoBot/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/tailwind.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/InfoBot/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/vite.config.js" afterDir="false" />
@@ -5365,7 +5365,7 @@
       <workItem from="1737396282144" duration="1467000" />
       <workItem from="1737398969423" duration="941000" />
       <workItem from="1738743590783" duration="1113000" />
-      <workItem from="1739344696349" duration="3139000" />
+      <workItem from="1739344696349" duration="3655000" />
     </task>
     <servers />
   </component>
@@ -5377,7 +5377,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/frontend/InfoBot/src/pages/loginpage/login.jsx</url>
-          <line>16</line>
+          <line>17</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>

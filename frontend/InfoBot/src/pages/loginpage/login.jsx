@@ -2,6 +2,7 @@ import images from "../../assets/bg.svg";
 import image from "../../assets/logo.png"
 import {TextField} from "@mui/material";
 import {Button} from "@mui/material"
+import gooogle from"../../assets/google.png"
 const Login = () => {
     return (
         <div className="w-[100vw] h-[100vh] flex justify-center items-center relative"
@@ -35,8 +36,8 @@ const Login = () => {
                 <span className="mx-3" style={{color:"white"}}>OR</span>
                 <span className="w-[80px] h-[2px] bg-white"></span>
             </div>
-            <Button variant="contained" disableElevation>
-  Sign in with Google {}
+            <Button variant="contained" disableElevation ><img src={gooogle} className="mx-3 w-[30px] h-[30px]"/>
+  Sign in with Google
 </Button>
 
 
