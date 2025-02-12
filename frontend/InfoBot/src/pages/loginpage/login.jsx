@@ -3,7 +3,33 @@ import image from "../../assets/logo.png"
 import {TextField} from "@mui/material";
 import {Button} from "@mui/material"
 import gooogle from"../../assets/google.png"
+import {useState} from "react";
+import axios from "axios";
+
 const Login = () => {
+    const [username, setUsername] = useState("");
+    const [password, setPassword] =useState("");
+    const [error,setError] = useState("");
+    const [success, setSuccess] = useState("");
+
+    const handleLogin =async () =>{
+        setError("");
+        setSuccess("");
+
+        try{
+            const response = await axios.post(" http://127.0.0.1:8000/login ",{
+              username,
+              password
+            });
+            if (response.status === 200) {
+                setSuccess("Login Successful");
+            }
+            setSuccess("Login Successfully")
+        }catch (err) {
+            setError(err.response?.data?.detail || "Login Failed");
+        }
+    };
+
     return (
         <div className="w-[100vw] h-[100vh] flex justify-center items-center relative"
                 style={{
@@ -23,12 +49,18 @@ const Login = () => {
                 <img src={image} alt="logo"/>
             </div>
             <TextField label="Username" variant="outlined" InputLabelProps={{ style: { color: 'white' } }}
-  InputProps={{ style: { color: 'white' } }}/>
+  InputProps={{ style: { color: 'white' } }}
+            onChange={(e) => setUsername(e.target.value)}
+            />
             <TextField label="Password" variant="outlined" InputLabelProps={{ style: { color: 'white' } }}
-  InputProps={{ style: { color: 'white' } }}/>
-            <Button variant="contained" className="w-[8vw] " style={{borderRadius:"20px"
+  InputProps={{ style: { color: 'white' } }}
+            onChange={(e)=> setPassword(e.target.value)}
+            />
+            {error && <p style={{color:"red"}}>{error}</p>}
+            {success && <p style={{color:"green"}}>{success}</p>}
+            <Button variant="contained" className="w-[8vw]" style={{borderRadius:"20px"
                 ,fontWeight:"bolder"
-                ,fontFamily:""}}>
+                ,fontFamily:""}} onClick={handleLogin}>
                 Login
             </Button>
             <div className="flex flex-row justify-center items-center">
