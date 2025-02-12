@@ -12,9 +12,9 @@ const Login = () => {
                     backgroundPosition: "center",
                     position: "absolute",
                 }}>
-        <div className="w-[30vw] h-[60vh] bg-gray-300 flex flex-col items-center p-4 gap-5"
+        <div className="w-[25vw] h-[65vh] bg-gray-300 flex flex-col items-center p-4 gap-5"
         style={{
-            backgroundColor: "rgba(255, 255, 255, 0.2)",
+            backgroundColor: "rgba(191,191,191,0.24)",
             borderRadius:"15px",
             borderColor:"white",
         }}>
@@ -25,9 +25,21 @@ const Login = () => {
   InputProps={{ style: { color: 'white' } }}/>
             <TextField label="Password" variant="outlined" InputLabelProps={{ style: { color: 'white' } }}
   InputProps={{ style: { color: 'white' } }}/>
-            <Button variant="contained" className="w-[15vw]">Login</Button>
-            <hr className="white" InputLabelProps={{ style: { color: 'white' } }}
-  InputProps={{ style: { color: 'white' } }}/>OR<hr className="white"/>
+            <Button variant="contained" className="w-[8vw] " style={{borderRadius:"20px"
+                ,fontWeight:"bolder"
+                ,fontFamily:""}}>
+                Login
+            </Button>
+            <div className="flex flex-row justify-center items-center">
+                <span className="w-[80px] h-[2px] bg-white"></span>
+                <span className="mx-3" style={{color:"white"}}>OR</span>
+                <span className="w-[80px] h-[2px] bg-white"></span>
+            </div>
+            <Button variant="contained" disableElevation>
+  Sign in with Google {}
+</Button>
+
+
         </div>
         </div>
     );
