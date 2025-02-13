@@ -1,20 +1,24 @@
 import images from "../../assets/bg.svg";
 import image from "../../assets/logo.png"
-import {TextField} from "@mui/material";
+import {TextField, Snackbar, Alert} from "@mui/material";
 import {Button} from "@mui/material"
 import gooogle from"../../assets/google.png"
 import {useState} from "react";
 import axios from "axios";
+import OutlinedPasswordField from "../../components/pass_encrypt.jsx"
 
 const Login = () => {
     const [username, setUsername] = useState("");
     const [password, setPassword] =useState("");
     const [error,setError] = useState("");
     const [success, setSuccess] = useState("");
+    const [openSnackbar, setOpenSnackbar] = useState(false);
+    const [snackbarType, setSnackbarType] = useState("success")
 
     const handleLogin =async () =>{
         setError("");
         setSuccess("");
+        setOpenSnackbar("false");
 
         try{
             const response = await axios.post(" http://127.0.0.1:8000/login ",{
@@ -23,10 +27,14 @@ const Login = () => {
             });
             if (response.status === 200) {
                 setSuccess("Login Successful");
+                setSnackbarType("success");
+                setOpenSnackbar(true);
             }
-            setSuccess("Login Successfully")
+
         }catch (err) {
             setError(err.response?.data?.detail || "Login Failed");
+            setSnackbarType("error");
+            setOpenSnackbar(true);
         }
     };
 
@@ -52,12 +60,13 @@ const Login = () => {
   InputProps={{ style: { color: 'white' } }}
             onChange={(e) => setUsername(e.target.value)}
             />
-            <TextField label="Password" variant="outlined" InputLabelProps={{ style: { color: 'white' } }}
-  InputProps={{ style: { color: 'white' } }}
-            onChange={(e)=> setPassword(e.target.value)}
-            />
-            {error && <p style={{color:"red"}}>{error}</p>}
-            {success && <p style={{color:"green"}}>{success}</p>}
+  {/*          <TextField label="Password" variant="outlined" InputLabelProps={{ style: { color: 'white' } }}*/}
+  {/*InputProps={{ style: { color: 'white' } }}*/}
+  {/*          onChange={(e)=> setPassword(e.target.value)}*/}
+  {/*          />*/}
+            <OutlinedPasswordField password={password} setPassword={setPassword}/>
+            {/*{error && <p style={{color:"red"}}>{error}</p>}*/}
+            {/*{success && <p style={{color:"green"}}>{success}</p>}*/}
             <Button variant="contained" className="w-[8vw]" style={{borderRadius:"20px"
                 ,fontWeight:"bolder"
                 ,fontFamily:""}} onClick={handleLogin}>
@@ -72,8 +81,21 @@ const Login = () => {
   Sign in with Google
 </Button>
 
-
         </div>
+            <Snackbar
+                open = {openSnackbar}
+                autoHideDuration={3000}
+                onClose={() => setOpenSnackbar(false)}
+                anchorOrigin={{vertical:"top",horizontal:"right"}}
+                >
+                <Alert
+                    onClose={()=> setOpenSnackbar(false)}
+                    severity={snackbarType}
+                    sx={{width:"100%"}}
+                >
+                    {snackbarType === "success" ? success:error}
+                </Alert>
+            </Snackbar>
         </div>
     );
 };
