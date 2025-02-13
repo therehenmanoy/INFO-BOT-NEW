@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9fb9175-6f0a-4071-9907-fd75bfe4327d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/InfoBot/src/components/pass_encrypt.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/INFO-BOT-NEW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/INFO-BOT-NEW.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
@@ -32,6 +31,7 @@
       <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/assets/404.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/assets/404.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/assets/bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/assets/bg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/components/pass_encrypt.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/components/pass_encrypt.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/InfoBot/src/output.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/InfoBot/src/output.css" afterDir="false" />
@@ -5372,7 +5372,7 @@
       <workItem from="1738743590783" duration="1113000" />
       <workItem from="1739344696349" duration="10037000" />
       <workItem from="1739462375516" duration="2028000" />
-      <workItem from="1739464442953" duration="493000" />
+      <workItem from="1739464442953" duration="790000" />
     </task>
     <servers />
   </component>

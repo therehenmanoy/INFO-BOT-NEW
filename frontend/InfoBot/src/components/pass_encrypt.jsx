@@ -28,6 +28,7 @@ export default function OutlinedPasswordField({ password, setPassword }) {
                 onClick={handleClickShowPassword}
                 onMouseDown={handleMouseDownPassword}
                 edge="end"
+                style={{color:"white"}}
               >
                 {showPassword ? <VisibilityOff /> : <Visibility />}
               </IconButton>
