@@ -18,7 +18,7 @@ const Login = () => {
     const handleLogin =async () =>{
         setError("");
         setSuccess("");
-        setOpenSnackbar("false");
+        setOpenSnackbar(false);
 
         try{
             const response = await axios.post(" http://127.0.0.1:8000/login ",{
